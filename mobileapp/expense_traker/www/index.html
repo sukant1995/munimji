@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+
+<body>
+
+
+    <div class="upload-form ">
+        <input type="file" id="file-input" accept=".csv, .xlsx, .xls">
+    </div>
+        
+        
+        
+        <div class="container">
+            <div class="button-container left" id="btn-cont-left">
+              
+            </div>
+            <div class="text-window">
+                <label>Progress : </label>
+                <span id="txrn-progress">0/0</span><br/><br/>
+                <label>Desc : </label>
+                <span id="txrn-narration"></span><br/><br/>
+                <label>Credit : </label>
+                <span id="txrn-credit"></span><br/><br/>
+                <label>Debit : </label>
+                <span id="txrn-debit"></span><br/><br/>
+            </div>
+            <div class="button-container right" id='btn-cont-right'>
+             
+            </div>
+        </div>
+
+        <div class="upload-form ">
+            <button id="btn-download">Download</button>
+        </div>
+    <!-- </div> -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jszip.js"></script>
+    <script src="js/xlsx.js"></script>
+    <script src="js/scripts.js"></script>
+    
+</body>
+</html>
